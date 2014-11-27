@@ -1,7 +1,7 @@
 Spree::Order.class_eval do
   belongs_to :self_delivery_point
 
-  attr_accessible :self_delivery_point_id
+  #attr_accessible :self_delivery_point_id
 
   spree_has_available_shipment = instance_method(:has_available_shipment)
 
